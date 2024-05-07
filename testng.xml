@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "C:\Users\rmuthusivabharath\Downloads\Optimo\Optimo\Azure Templates\testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="" />
+		</run>
+	</groups>
+	<test thread-count="5" name="CloudAccountValidation">
+		<classes>
+			<class name="com.compaasreg.testcases.YourTestClass" />
+
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="PortletValidation">
+		<classes>
+			<class name="" />
+
+		</classes>
+	</test>
+</suite> <!-- Suite -->
